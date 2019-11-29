@@ -1,0 +1,26 @@
+<book>
+  <chapter xml:id="sect0">
+    <title xml:id="para0">封面</title>
+    <table xml:id="para1"><caption/>
+      <tr>
+        <td>
+          <mediaobject>
+            <imageobject><imagedata fileref="cover.jpg"/></imageobject>
+          </mediaobject>
+        </td>
+      </tr>
+    </table>
+    <table xml:id="para2"><caption/>
+      <tr>
+        <td>
+          <mediaobject>
+            <imageobject><imagedata fileref="rights.jpg"/></imageobject>
+          </mediaobject>
+        </td>
+      </tr>
+    </table>
+    <para xml:id="para2">
+      正文
+    </para>
+  </chapter>
+</book>

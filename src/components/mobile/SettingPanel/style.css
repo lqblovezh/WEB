@@ -1,0 +1,109 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+    overflow: hidden;
+}
+
+.content {
+    >div{
+        margin-top: calc(22/$baseFontSize)rem;
+        margin-bottom: calc(22/$baseFontSize)rem;
+    }
+}
+
+.brightness {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.colorAndBgList {
+    display: flex;
+}
+.bgColorListItem{
+    width: 100%;
+    text-align: center;
+    > div{
+        position: relative;
+        width: calc(22/$baseFontSize)rem;
+        height: calc(22/$baseFontSize)rem;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+}
+.systemLight{
+    padding-left: .1rem;
+    flex: 0 0 calc(130/$baseFontSize)rem;
+    display: flex;
+    height: .3rem;
+    line-height: .3rem;
+    > div{
+        text-align: center;
+        font-size: calc(13/$baseFontSize)rem;
+        border: 1px solid;
+        border-radius: .3rem;
+        width: calc(57/$baseFontSize)rem;
+        &:last-child{
+            margin-left: calc(10/$baseFontSize)rem;
+        }
+    }
+}
+.fontList{
+    display: flex;
+    .size{
+        font-size: calc(17/$baseFontSize)rem;
+        text-align: center;
+    }
+}
+.bgDefault{
+    &:after{
+        position: absolute;
+        content: '';
+        display: block;
+        top: -2px;
+        right: -2px;
+        width: calc(11/$baseFontSize)rem;
+        height: calc(11/$baseFontSize)rem;;
+        background-size: calc(11/$baseFontSize)rem;
+        background-repeat: no-repeat;
+    }
+}
+.ligthDefault{
+
+}
+.fontSize{
+    flex: 1;
+    display: flex;
+    > div{
+        width: 100%;
+    }
+    .sizeBtn{
+        background-size: calc(24/$baseFontSize)rem;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+.addSize{
+
+}
+.reduceSize{
+
+}
+.fontFamily{
+    flex: 0 0 calc(110/$baseFontSize)rem;
+    padding-left: .1rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    &:after{
+        content: '';
+        display: inline-block;
+        width: calc(9/$baseFontSize)rem;
+        height: calc(15/$baseFontSize)rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-left: calc(10/$baseFontSize)rem;
+        position: relative;
+        top: 1px
+    }
+}

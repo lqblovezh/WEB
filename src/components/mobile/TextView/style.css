@@ -1,0 +1,54 @@
+@import 'components/mobile/base.css';
+.wrapper {
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: calc(($topBarHeight)/$baseFontSize)rem;;
+    position: absolute;
+    top: calc(($topBarHeight+1)/$baseFontSize)rem;
+}
+
+.backBody, .frontBody {
+  position: absolute;
+  left: 0;
+    bottom: ;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  & > div {
+   line-height: 250%;
+   padding: 1ex;
+  }
+}
+
+.backBody {
+  z-index: 1;
+  top: 200%;
+}
+
+.frontBody {
+  z-index: 2;
+  top: 0;
+}
+
+.lr{
+
+}
+
+.vrl {
+   writing-mode: vertical-rl;
+   -ms-writing-mode: tb-rl;
+
+   &.static div {
+     float: left;
+     clear: both;
+   }
+}
+
+.auto {
+
+}
+
+.static {
+  overflow: auto;
+}

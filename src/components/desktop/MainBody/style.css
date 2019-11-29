@@ -1,0 +1,27 @@
+@import 'components/desktop/base.css';
+
+.wrapper {
+  position: absolute;
+  top:topBarHeight;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.prevBtn, .nextBtn {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  margin-top: -34px;
+  z-index: 10;
+  cursor: pointer;
+}
+.nextBtn {
+  right: 30px;
+}
+.prevBtn {
+  left: 30px;
+}

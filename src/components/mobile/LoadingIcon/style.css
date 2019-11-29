@@ -1,0 +1,13 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+  width: calc(175/$baseFontSize)rem;
+  height: calc(175/$baseFontSize)rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

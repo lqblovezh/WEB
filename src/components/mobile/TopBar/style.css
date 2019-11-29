@@ -1,0 +1,55 @@
+@import 'components/mobile/base.css';
+
+.wrapper{
+    height: calc($topBarHeight/$baseFontSize)rem;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    &:after{
+        content: ' ';
+        display: block;
+        clear: both;
+    }
+}
+.slideBox{
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.backBtn{
+    position: absolute;
+    height: calc($topBarHeight/$baseFontSize)rem;
+    line-height: calc($topBarHeight/$baseFontSize)rem;
+    float: left;
+    text-indent: calc(30/$baseFontSize)rem;
+    left: 0;
+    background-position: calc(12/$baseFontSize)rem center;
+    background-repeat: no-repeat;
+    background-size: calc(11/$baseFontSize)rem calc(20/$baseFontSize)rem;
+    z-index: 1;
+}
+.title{
+    position: absolute;
+    height: calc($topBarHeight/$baseFontSize)rem;
+    width:100%;
+    text-align: center;
+    line-height: calc($topBarHeight/$baseFontSize)rem;
+    font-size: calc(21/$baseFontSize)rem;
+    z-index: 0;
+}
+.search{
+    position: absolute;
+    width: calc($topBarHeight/$baseFontSize)rem;
+    height: calc($topBarHeight/$baseFontSize)rem;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(20/$baseFontSize)rem calc(20/$baseFontSize)rem;
+}

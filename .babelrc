@@ -1,0 +1,16 @@
+{
+  "presets": ["env", "stage-0"],
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy",
+    "transform-async-to-generator",
+    ["babel-plugin-root-import", {
+      "rootPathPrefix": "~",
+      "rootPathSuffix": "src"
+    }],
+    ["module-resolver", {
+      "alias": {
+      }
+    }]
+  ]
+}

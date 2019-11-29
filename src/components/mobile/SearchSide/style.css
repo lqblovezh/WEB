@@ -1,0 +1,22 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0,0,0,.5);
+}
+
+.slideBox {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  bottom: 0;
+  right: 0;
+  padding: 0 calc(12/$baseFontSize)rem;
+  box-sizing: border-box;
+}
+

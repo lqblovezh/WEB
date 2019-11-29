@@ -1,0 +1,24 @@
+
+.wrapper {
+  position: absolute;
+  width: 235px;
+  height: 50px;
+  right: 160px;
+  top: 0;
+  line-height: 50px;
+  input {
+    width: 205px;
+    height: 30px;
+    border-radius: 15px;
+    background: #FFF;
+    border: 0;
+    outline:none;
+    padding-left: 30px;
+  }
+
+}
+.pic {
+  position: absolute;
+  left: 10px;
+  top: 19px;
+}

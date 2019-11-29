@@ -1,0 +1,66 @@
+@import 'components/desktop/base.css';
+
+.wrapper{
+    min-width: 800px;
+    height: topBarHeight;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    position: absolute;
+    &:after{
+        content: ' ';
+        display: block;
+        clear: both;
+    }
+}
+.indexBtn,.labelBtn,.bookmarkBtn,.settingBtn,.comparisonsBtn{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.title{
+    z-index: -1;
+    position: absolute;
+    height: 50px;
+    /* width:100%; */
+    /* width: calc(100% - 550px); */
+    width:100%;
+    min-width: 300px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+.search{
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    right: 153px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.page{
+    position: absolute;
+    width: 153px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+    line-height: 50px;
+    font-size: 14px;
+}
+.goPage{
+    padding: 0px 10px;
+    display: inline-block;
+}
+.pullDownImg{
+    vertical-align: middle;
+}
+.addBookmarkBtn{
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    right: 400px;
+    cursor: pointer;
+}

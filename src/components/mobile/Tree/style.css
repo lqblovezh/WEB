@@ -1,0 +1,58 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 5;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.bookName {
+  padding: 2ex 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu {
+  @util reset-list;
+  li {
+    padding: calc(13/$baseFontSize)rem;
+    padding-bottom: 0;
+  }
+}
+
+.item {
+   border-bottom: 1px solid #CCC;
+   padding-bottom: calc(13/$baseFontSize)rem;
+   color: #333;
+   cursor: pointer;
+}
+.name {
+   text-decoration: none;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemAction {
+  /*background-color: #e0e0e0;*/
+}
+
+.toggleBtn {
+  float: right;
+  font-family: monospace;
+  border: 0;
+  background: rgba(0,0,0,0);
+  outline:none;
+}
+.current {
+  composes: item;
+  font-weight: bold;
+  border-left-color: #666;
+}

@@ -1,0 +1,55 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+.chapterName {
+    height: calc(($topBarHeight)/$baseFontSize)rem;
+    line-height: calc($topBarHeight/$baseFontSize)rem;
+    padding: 0 calc(20/$baseFontSize)rem;
+    font-size: calc(12/$baseFontSize)rem;
+    border-bottom: 1px solid #e0d8bf;
+    font-weight: bold;
+    position: relative;
+}
+.chapterName .icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: calc(20/$baseFontSize)rem;
+    width: calc(18/$baseFontSize)rem;
+    height: calc(34/$baseFontSize)rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.current{}
+.footer{
+    width: 100%;
+    height: calc(($topBarHeight)/$baseFontSize)rem;
+    line-height: calc($topBarHeight/$baseFontSize)rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.otherLabel{
+    height: calc(30/$baseFontSize)rem;
+    position: relative;
+    line-height: calc(30/$baseFontSize)rem;
+    background: #2d7d62;
+    width: calc(70/$baseFontSize)rem;
+    text-align: center;
+    font-size: calc(13/$baseFontSize)rem;
+    color: #fff;
+    top: 50%;
+    margin-top: calc(-15/$baseFontSize)rem;
+    border-top-right-radius: calc(15/$baseFontSize)rem;
+    border-bottom-right-radius: calc(15/$baseFontSize)rem;
+    padding-right: calc(10/$baseFontSize)rem;
+}

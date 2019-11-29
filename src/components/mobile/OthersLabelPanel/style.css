@@ -1,0 +1,110 @@
+@import 'components/mobile/base.css';
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.slideBox {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  bottom: 0;
+}
+
+.noData {
+  text-align: center;
+  padding: 1ex;
+}
+.content {
+  position: absolute;
+  top: calc(50/$baseFontSize)rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.itemFieldo {
+  box-sizing: border-box;
+  padding: calc(12/$baseFontSize)rem;
+  margin-bottom:calc(10/$baseFontSize)rem;
+  .userText{
+    margin: calc(8/$baseFontSize)rem 0;
+    font-size: calc(15/$baseFontSize)rem;
+    line-height: calc(24/$baseFontSize)rem;
+    color: #827667;
+  }
+  .selectedTexto{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px ;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: #f1ecd4;
+    border: solid 1px #d5ccb2;
+    color: #827667;
+  }
+}
+.otherlabelTitle{
+  >div{
+    display: inline-block;
+    font-size: calc(15/$baseFontSize)rem;
+    color: #58a088;
+    height: calc(40/$baseFontSize)rem;
+    line-height: calc(40/$baseFontSize)rem;
+    &:last-child{
+      float: right;
+    }
+  }
+}
+.otherlabelName{
+  color: #2d7d62;
+  width: calc(110/$baseFontSize)rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.otherlabelType{
+  width: calc(80/$baseFontSize)rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.otherlabelTime{
+
+}
+.title{
+  height: calc(50/$baseFontSize)rem;
+  line-height: calc(50/$baseFontSize)rem;
+  text-align: center;
+  font-size: calc(20/$baseFontSize)rem;
+}
+
+.otherLabelTitle{
+}
+.other{
+  cursor: pointer;
+  text-decoration: none;
+}
+.otherLabelLink{
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.otherGroup{
+  height: calc(30/$baseFontSize)rem;
+  line-height: calc(30/$baseFontSize)rem;
+  margin-top: calc(12/$baseFontSize)rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: .3rem;
+  a{
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,515 @@
+.reader3__Layout__daytime{
+  &.reader3__Layout__wrapper {
+    color: #333;
+  }
+  .reader3__TopBar__backBtn {
+    background-image: url('./img/top-back.png');
+    color: #fff;
+  }
+  .reader3__TopBar__slideBox{
+    background-color: rgba(45,125,98,.98);
+  }
+  .reader3__TopBar__title{
+    color: #fff;
+  }
+  .reader3__TopBar__search{
+    background-image: url('./img/top-search.png');
+  }
+  .reader3__BottomBar__slideBox{
+    background: rgba(45,125,98,.98);
+  }
+  .reader3__Controller__progressBtn{
+    background-color: #fff;
+    border-color: #fff;
+  }
+  .reader3__Controller__progress{
+    background-color: #fff;
+  }
+  .reader3__Controller__barInner{
+    background-color: rgba(0,0,0,.3);
+  }
+  .reader3__Controller__Chapter{
+    color: #f5f2e4;
+  }
+  .reader3__NavBar__nav{
+    color: #fff;
+  }
+  .reader3__NavBar__wrapper li{
+    color: #fff;
+  }
+  .reader3__NavBar__catalog{
+    background-image: url('./img/nav-catalog.png');
+  }
+  .reader3__NavBar__white{
+    background-image: url('./img/nav-white.png');
+  }
+  .reader3__NavBar__night{
+    background-image: url('./img/nav-night.png');
+  }
+  .reader3__NavBar__setting{
+    background-image: url('./img/nav-setting.png');
+  }
+  .reader3__NavBar__share{
+    background-image: url('./img/nav-share.png');
+  }
+  .reader3__LeftSide__wrapper{
+    background-color: rgba(0,0,0,.5);
+  }
+  .reader3__LeftSide__slideBox{
+    background-color: #f5f2e4;
+  }
+  .reader3__SettingPanel__addSize{
+    background-image: url('./img/setting-add.png');
+  }
+  .reader3__SettingPanel__reduceSize{
+    background-image: url('./img/setting-reduce.png');
+  }
+  .reader3__SettingPanel__bgDefault{
+  &:after{
+     background-image: url('./img/setting-checked.png');
+   }
+  }
+  .reader3__SettingPanel__systemLight{
+  >div{
+     border-color: #f5f2e4;
+     color: #f5f2e4;
+   }
+  }
+  .reader3__SettingPanel__size{
+    color: #f5f2e4;
+  }
+  .reader3__SettingPanel__fontFamily{
+    color: #f5f2e4;
+  &:after{
+     background-image: url('./img/setting-font.png');
+   }
+  }
+  .reader3__FontPanel__wrapper{
+    color: #f5f2e4;
+  }
+  .reader3__FontPanel__fieldTitle{
+    border-bottom-color: #286f57;
+  }
+  .reader3__FontPanel__fontFamilyListItem{
+    border-bottom-color: #286f57;
+  }
+  .reader3__FontPanel__solidCircle{
+    background-image: url('./img/setting-font-current.png');
+  }
+  .reader3__FontPanel__back{
+    background-image: url('./img/top-back.png');
+  }
+  .reader3__LeftSide__topNav{
+    /*background-color: #f5f2e4;*/
+    border-bottom-color: #67af97;
+    li{
+      color: #58a088;
+    }
+  }
+  .reader3__LeftSide__navActive{
+    color: #2d7d62;
+    background-image: url('./img/nav-active.png');
+  }
+  .reader3__Tree__item{
+    color: #827667;
+    border-color: #e0d8bf;
+  }
+  .reader3__Tree__itemAction{
+    color: #2d7d62;
+  }
+  .reader3__LabelPanel__selectedText{
+    color: #827667;
+  }
+  .reader3__LabelPanel__userText{
+    color: #2d7d62;
+  }
+  .reader3__LabelPanel__itemField{
+    border-bottom-color: #d3caac;
+  }
+  .reader3__LabelPanel__labelTime{
+    color: #827667;
+  }
+  .reader3__LabelPanel__labelTitle {
+    color: #2d7d62;
+  }
+  .reader3__LabelPanel__noDataImg{
+    background-image: url('./img/label-noDate.png');
+  }
+  .reader3__LabelPanel__noDataText{
+    color: #2d7d62;
+  }
+  .reader3__LabelPanel__upLabelBtn,
+  .reader3__BookmarkPanel__upLabelBtn{
+    background-image: url('./img/delete-mobile.png');
+  }
+  .reader3__SearchSide__wrapper{
+    background-color: rgba(0,0,0,.5);
+  }
+  .reader3__SearchSide__slideBox{
+    background-color: #f5f2e4;
+  }
+  .reader3__SearchBar__pic{
+    background-image: url('./img/search-mobile.png');
+  }
+  .reader3__SearchBar__wrapper input{
+    border-color: #358267;
+    color: #358267;
+  }
+  .reader3__SearchResultBox__name{
+    color: #2d7d62;
+  }
+  .reader3__SearchResultBox__content{
+    color: #827667;
+  }
+  .reader3__SearchResultBox__wrapper ul li{
+    border-color: #dadabf;
+  }
+  .reader3__SearchResultBox__highlight{
+    color: #ca380f;
+  }
+  .reader3__SearchResultBox__noDataImg{
+    background-image: url('./img/search-result.png');
+  }
+  .reader3__SearchResultBox__noDataText{
+    color: #2d7d62;
+  }
+  .bamboo {
+    background: url(img/textBg.png) top right;
+  }
+  .reader3__LoadingIcon__wrapper {
+    background-image: url('./img/loading-mobile.gif');
+  }
+  .reader3__GestureGuide__wrapper{
+    background-image: url('./img/gesture-guide.png');
+  }
+  .reader3__MainBody__chapterName{
+    color: #2d7d62;
+    border-bottom-color: #e0d8bf;
+  }
+  .reader3__MainBody__icon{
+    background-image: url('./img/bookmark.png');
+  }
+  .reader3__MainBody__chapterName.reader3__MainBody__current span{
+    background-image: url('./img/bookmark-current.png');
+  }
+  .reader3__BookmarkPanel__bookmarkTitle{
+    color: #2d7d62;
+  }
+  .reader3__BookmarkPanel__chapterName{
+    border-bottom-color: #cececb;
+    color: #2d7d62;
+  }
+  .reader3__BookmarkPanel__bookmarkText{
+    color: #827667;
+  }
+  .reader3__BookmarkPanel__bookmarkTime{
+    color: rgba(130,118,103,.66);
+  }
+  .reader3__BookmarkPanel__itemField:after{
+    background-image: url('./img/bookmark-small.png');
+  }
+  .reader3__BookmarkPanel__noDataImg{
+    background-image: url('./img/bookmark-noDate.png');
+  }
+  .reader3__BookmarkPanel__noDataText{
+    color: #2d7d62;
+  }
+  .reader3__MainBody__otherLabel{
+    background-color: #2d7d62;
+    color: #fff;
+  }
+  .reader3__OthersLabelPanel__wrapper{
+    background-color: rgba(0,0,0,.5);
+  }
+  .reader3__OthersLabelPanel__slideBox{
+    background-color: #f5f2e4;
+  }
+  .reader3__OthersLabelPanel__otherlabelTitle>div{
+    color: #58a088;
+  }
+  .reader3__OthersLabelPanel__otherlabelName{
+    color: #2d7d62 !important;
+  }
+  .reader3__OthersLabelPanel__userText{
+    color: #827667;
+  }
+  .reader3__OthersLabelPanel__title{
+    color: rgb(155, 136, 81);
+  }
+  .reader3__OthersLabelPanel__content{
+    background-color: #f1ecdc;
+  }
+  .reader3__OthersLabelPanel__itemFieldo{
+    background-color: #f5f2e4;
+  }
+  .reader3__OthersLabelPanel__otherLabelTitle{
+    border-left-color: #2d7d62;
+    color: #2d7d62;
+  }
+  .reader3__OthersLabelPanel__otherGroup{
+    border-color: #2d7d62;
+  }
+  .reader3__OthersLabelPanel__other{
+    color: #2d7d62;
+  }
+}
+
+
+.reader3__Layout__nighttime{
+  &.reader3__Layout__wrapper {
+    color: #333;
+  }
+  .reader3__TopBar__backBtn {
+    background-image: url('./img/top-back-night.png');
+    color: #3a5149;
+  }
+  .reader3__TopBar__slideBox{
+    background-color: rgba(34,49,43,.98);
+  }
+  .reader3__TopBar__title{
+    color: #3a5149;
+  }
+  .reader3__TopBar__search{
+    background-image: url('./img/top-search-night.png');
+  }
+  .reader3__BottomBar__slideBox{
+    background-color: rgba(34,49,43,.98);
+  }
+  .reader3__Controller__progressBtn{
+    background-color: #536e65;
+    border-color: #536e65;
+  }
+  .reader3__Controller__progress{
+    background-color: #536e65;
+  }
+  .reader3__Controller__barInner{
+    background-color: rgba(0,0,0,.3);
+  }
+  .reader3__Controller__Chapter{
+    color: #3a5149;
+  }
+  .reader3__NavBar__nav{
+    color: #fff;
+  }
+  .reader3__NavBar__wrapper li{
+    color: #3a5149;
+  }
+  .reader3__NavBar__catalog{
+    background-image: url('./img/nav-catalog-night.png');
+  }
+  .reader3__NavBar__white{
+    background-image: url('./img/nav-night.png');
+  }
+  .reader3__NavBar__setting{
+    background-image: url('./img/nav-setting-night.png');
+  }
+  .reader3__NavBar__share{
+    background-image: url('./img/nav-share-night.png');
+  }
+  .reader3__LeftSide__wrapper{
+    background-color: rgba(0,0,0,.5);
+  }
+  .reader3__LeftSide__slideBox{
+    background-color: #1e2e28;
+  }
+  .reader3__SettingPanel__addSize{
+    background-image: url('./img/setting-add-night.png');
+  }
+  .reader3__SettingPanel__reduceSize{
+    background-image: url('./img/setting-reduce-night.png');
+  }
+  .reader3__SettingPanel__systemLight{
+  >div{
+     border-color: #3a5149;
+     color: #3a5149;
+   }
+  }
+  .reader3__SettingPanel__size{
+    color: #3a5149;
+  }
+  .reader3__SettingPanel__fontFamily{
+    color: #3a5149;
+    &:after{
+       background-image: url('./img/setting-font-night.png');
+    }
+  }
+  .reader3__FontPanel__wrapper{
+    color: #3a5149;
+  }
+  .reader3__FontPanel__fieldTitle{
+    border-bottom-color: #2f433c;
+  }
+  .reader3__FontPanel__fontFamilyListItem{
+    border-bottom-color: #2f433c;
+  }
+  .reader3__FontPanel__solidCircle{
+    background-image: url('./img/setting-font-current-night.png');
+  }
+  .reader3__FontPanel__back{
+    background-image: url('./img/top-back-night.png');
+  }
+  .reader3__LeftSide__topNav{
+    border-bottom-color: #3a5149;
+    li{
+      color: #3a5149;
+    }
+  }
+  .reader3__LeftSide__navActive{
+    color: #225544 !important;
+    background-image: url('./img/nav-active-night.png');
+  }
+  .reader3__Tree__item{
+    color: #3a5149;
+    border-color: #2f433c;
+  }
+  .reader3__Tree__itemAction{
+    color: #225544;
+  }
+  .reader3__LabelPanel__selectedText{
+    color: #3a5149;
+  }
+  .reader3__LabelPanel__userText{
+    color: #225544;
+  }
+  .reader3__LabelPanel__itemField{
+    border-bottom-color: #344a42;
+  }
+  .reader3__LabelPanel__labelTime{
+    color: #3a5149;
+  }
+  .reader3__LabelPanel__labelTitle {
+    color: #225544;
+  }
+  .reader3__LabelPanel__noDataImg{
+    background-image: url('./img/label-noDate-night.png');
+  }
+  .reader3__LabelPanel__noDataText{
+    color: #3a5149;
+  }
+  .reader3__LabelPanel__upLabelBtn,
+  .reader3__BookmarkPanel__upLabelBtn {
+    background-image: url('./img/delete-mobile-night.png');
+  }
+  .reader3__SearchSide__wrapper{
+    background-color: rgba(0,0,0,.5);
+  }
+  .reader3__SearchSide__slideBox{
+    background-color: #1e2e28;
+  }
+  .reader3__SearchBar__pic{
+    background-image: url('./img/search-mobile-night.png');
+  }
+  .reader3__SearchBar__wrapper input{
+    border-color: #5b776d;
+    color: #567168;
+    background-color: #22332d;
+  }
+  .reader3__SearchResultBox__name{
+    color: #4a645b;
+  }
+  .reader3__SearchResultBox__content{
+    color: #3a5149;
+  }
+  .reader3__SearchResultBox__highlight{
+    color: #c23711;
+  }
+  .reader3__SearchResultBox__wrapper ul li{
+    border-color: #344a42;
+  }
+  .reader3__SearchResultBox__noDataImg{
+    background-image: url('./img/search-result-night.png');
+  }
+  .reader3__SearchResultBox__noDataText{
+    color: #3a5149;
+  }
+  .reader3__MainBody__wrapper{
+    color: #3a5149 !important;
+  }
+  .bamboo {
+    background: rgba(18,28,24,.98);
+  }
+  .reader3__LoadingIcon__wrapper {
+    background: url('./img/loading-mobile.gif') no-repeat center;
+  }
+  .reader3__GestureGuide__wrapper{
+    background-image: url('./img/gesture-guide.png');
+  }
+  .reader3__MainBody__chapterName{
+    color: #3a5149;
+    border-bottom-color: rgba(51, 86, 78, 0.54);
+  }
+  .reader3__MainBody__icon{
+    background-image: url('./img/bookmark-night.png');
+  }
+  .reader3__MainBody__chapterName.reader3__MainBody__current span{
+    background-image: url('./img/bookmark-current-night.png');
+  }
+  .reader3__BookmarkPanel__bookmarkTitle{
+    color: #225544;
+  }
+  .reader3__BookmarkPanel__chapterName{
+    border-bottom-color: #344a42;
+    color: #225544;
+  }
+  .reader3__BookmarkPanel__bookmarkText{
+    color: #3a5149;
+  }
+  .reader3__BookmarkPanel__itemField{
+    border-bottom-color: #344a42;
+  }
+  .reader3__BookmarkPanel__bookmarkTime{
+    color: rgba(58,81,73,.66);
+  }
+  .reader3__BookmarkPanel__itemField:after{
+    background-image: url('./img/bookmark-small-night.png');
+  }
+  .reader3__BookmarkPanel__noDataImg{
+    background-image: url('./img/bookmark-noDate-night.png');
+  }
+  .reader3__BookmarkPanel__noDataText{
+    color: #3a5149;
+  }
+  .reader3__MainBody__otherLabel{
+    background-color: #225544;
+    color: #171717;
+  }
+  .reader3__OthersLabelPanel__wrapper{
+    background-color: rgba(0,0,0,.5);
+  }
+  .reader3__OthersLabelPanel__slideBox{
+    background-color: #1d2c24;
+  }
+  .reader3__OthersLabelPanel__otherlabelTitle>div{
+    color: #486158;
+  }
+  .reader3__OthersLabelPanel__otherlabelName{
+    color: #225544 !important;
+  }
+  .reader3__OthersLabelPanel__userText{
+    color: #3a5149;
+  }
+  .reader3__OthersLabelPanel__selectedTexto{
+    background-color: #3a5149;
+    border: none;
+    color: #1a2821;
+  }
+  .reader3__OthersLabelPanel__title{
+    color: #3a5149;
+  }
+  .reader3__OthersLabelPanel__content{
+    background-color: #131f18;
+  }
+  .reader3__OthersLabelPanel__itemFieldo{
+    background-color: #1d2c24;
+  }
+  .reader3__OthersLabelPanel__otherLabelTitle{
+    border-left-color: #225544;
+    color: #225544;
+  }
+  .reader3__OthersLabelPanel__otherGroup{
+    border-color: #225544;
+  }
+  .reader3__OthersLabelPanel__other{
+    color: #225544;
+  }
+}

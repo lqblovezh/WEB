@@ -1,0 +1,66 @@
+@import 'components/desktop/base.css';
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.noData {
+  text-align: center;
+  padding: 1ex;
+}
+
+.content {
+  overflow: auto;
+}
+.title{
+  height: 55px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 18px;
+}
+.bookmarkItem{
+  margin: 0 20px 0 20px;
+}
+.bookmarkChapter{
+  height: 60px;
+  font-size: 16px;
+  line-height: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  .bookmarkChapterName{
+    padding-left: 20px;
+  }
+}
+.markTop{
+	font-size: 12px;
+	line-height: 20px;
+  padding: 15px 0;
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 30px;
+}
+.markContent{
+	font-size: 14px;
+	line-height: 20px;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  margin: 5px 0 20px 0;
+  cursor: pointer;
+}
+.mark{
+  padding-left: 15px;
+}
+.markDel{
+  display: inline-block;
+  width: 30px;
+  height: 19px;
+  position: absolute;
+  cursor: pointer;
+}

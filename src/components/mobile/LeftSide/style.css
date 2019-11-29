@@ -1,0 +1,38 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.slideBox {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  bottom: 0;
+}
+
+.topNav{
+  @util reset-list;
+  border-bottom: 1px solid;
+  line-height: calc(47/$baseFontSize)rem;
+  display: flex;
+  box-sizing: border-box;
+  li{
+    color: #333;
+    width: 100%;
+    font-size: calc(17/$baseFontSize)rem;
+    text-align: center;
+    &.navActive{
+      font-weight: bold;
+      color: #2d7d62;
+      background-position-y: bottom;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}

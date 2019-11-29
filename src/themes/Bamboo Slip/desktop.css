@@ -1,0 +1,308 @@
+$mainColor: rgb(189, 167, 101);
+$mainHoverColor: rgb(155, 136, 81);
+
+.reader3__Layout__container {
+  /* border: 1px solid $mainColor; */
+}
+
+.reader3__TopBar__wrapper {
+  background: $mainColor;
+}
+
+.reader3__TopBar__indexBtn {
+  background: url('./img/chapter.png') no-repeat center center;
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+.reader3__TopBar__bookmarkBtn { 
+  background: url('./img/bookmark-desk-white.png') no-repeat center center; 
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+
+.reader3__TopBar__settingBtn {
+  background: url('./img/font.png') no-repeat center center;
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+
+.reader3__TopBar__labelBtn {
+  background: url('./img/tag.png') no-repeat center center;
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+
+.reader3__TopBar__comparisonsBtn {
+  background: url('./img/entireImgBtn.png') no-repeat center center;
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+
+.reader3__TopBar__comparisonBtn {
+  background: url('./img/entireImgBtn.png') no-repeat center center;
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+
+.reader3__TopBar__title {
+  color: #fff;
+}
+
+.reader3__TopBar__page {
+  color: #ffffff;
+  .reader3__TopBar__goPage {
+    background: url('./img/pull-down.png') no-repeat center right;
+  }
+}
+
+.reader3__LeftSide__wrapper>div {
+  border-right: 1px solid $mainColor;
+}
+
+.reader3__MainBody__nextBtn, .reader3__MainBody__prevBtn {
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.reader3__MainBody__nextBtn {
+  background: url('./img/next.png');
+}
+
+.reader3__MainBody__prevBtn {
+  background: url('./img/prev.png');
+}
+
+@each $btn in (layoutLeftBtn, layoutCenterBtn, layoutRightBtn) {
+  .reader3__SettingPanel__$btn {
+    background: url('./img/$btn.png') no-repeat center;
+    &:hover {
+      cursor: pointer;
+    }
+    &.reader3__SettingPanel__layoutActiveBtn {
+      background-image: url('./img/$btn.active.png');
+    }
+  }
+}
+
+.reader3__LoadingIcon__wrapper {
+  background: url('./img/loading.gif') no-repeat center;
+}
+
+.reader3__Box__content {
+  border: 1px solid $mainColor;
+}
+
+.reader3__TabBar__comparisonImgWrap {
+  border-top: 1px solid $mainColor;
+  position: relative;
+  img {
+    height: 95%;
+    min-height: 500px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -150px;
+  }
+}
+
+.reader3__SearchBar__pic {
+  background: url('./img/search.png') no-repeat;
+  width: 14px;
+  height: 16px;
+  background-size: 14px 16px;
+}
+
+.reader3__FloatBox__closeBtn {
+  background: url('./img/close.png') no-repeat center;
+  &:hover {
+    background-color: $mainHoverColor;
+    cursor: pointer;
+  }
+}
+.reader3__FloatBox__header{
+  background: $mainColor;
+  color: white;
+}
+
+
+.reader3__LabelFormBox__content {
+  background: #ebe8df;
+}
+
+
+.reader3__LabelFormBox__title {
+  background-color: $mainColor;
+  color: #ffffff;
+}
+
+.reader3__LabelFormBox__labelInput {
+  color: #ffffff;
+}
+
+.reader3__LabelFormBox__comfirmBtn {
+  background-color: #bf7555;
+  color: #ffffff;
+}
+
+.reader3__FloatBox__wrapper {
+  border-color: #ac9652;
+}
+
+.reader3__MainBody__wrapper {
+  .reader__comparisonBtn {
+    background: url('./img/partialImgBtn.png') no-repeat center;
+    border: none;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.reader3__LabelPanel__wrapper, .reader3__SettingPanel__wrapper, .reader3__CatalogPanel__wrapper {
+  background: #ebe8df;
+}
+
+.reader3__LabelPanel__title, .reader3__Tree__bookName, .reader3__SettingPanel__fieldTitle {
+  color: #9a814b;
+}
+
+.reader3__LabelPanel__itemField {
+  border-top:  1px solid rgba(188,166,101,0.5);
+}
+.reader3__LabelPanel__noData {
+  color: #a6937f;
+}
+.reader3__LabelPanel__userText {
+  color: #5c3f21;
+  font-family: '微软雅黑';
+}
+.reader3__LabelPanel__selectedText {
+  color: #a6937f;
+  border: 1px solid #e0d7bf;
+  background-color: #fbfbf5;
+  &:hover {
+    color: #9a814b;
+    background-color: #fff;
+  }
+}
+.reader3__LabelPanel__labelTime{
+  color: #a6937f;
+}
+
+.reader3__LabelPanel__upLabelBtn {
+  background: $mainColor;
+  color: #ffffff;
+}
+.reader3__LabelPanel__labelTitle {
+  color: #9a814b;
+}
+.reader3__Popover__wrapper{
+  border-color: $mainColor;
+  color: $mainColor;
+  background: #fff;
+}
+
+.bamboo {
+  background: url(img/textBg.png) top right;
+}
+
+
+.reader3__Layout__otherLabelBtn{
+  background: url('img/other_label.png') no-repeat center 3px;
+  background-color: #e3dbc6;
+  color: #8f7356;
+}
+
+.reader3__Bookmark__markTop{
+  background: url('img/bookmark-tip.png') no-repeat left center;
+}
+.reader3__Bookmark__markDel{
+  background: url('img/delbookmark-desk.png') no-repeat right center;
+}
+.reader3__TopBar__addBookmarkBtn{ 
+  background: url('img/bookmark-small.png') no-repeat left center;
+}
+
+
+
+.reader3__OthersLabelPanel__pageList{
+  .reader3__OthersLabelPanel__page{
+    background-color: #f0ecde;
+    border: solid 1px #8f7356;
+    color: #8f7356;
+  }
+  .reader3__OthersLabelPanel__currPage{
+    color: red;
+    background-color: #8f7356;
+    color: #fffdf7;
+  }
+}
+
+.reader3__OthersLabelPanel__wrapper {
+  background: #f1ede0;
+}
+
+.reader3__OthersLabelPanel__itemFieldo{
+  border: solid 1px #cdc09b;
+  background-color: #faf7ee;
+  .reader3__OthersLabelPanel__userText{
+    color: #765a3d;
+  }
+  .reader3__OthersLabelPanel__selectedTexto{
+    background-color: #f3eddd;
+    border: solid 1px #dbc891;
+    color: #827667;
+  }
+
+}
+.reader3__OthersLabelPanel__otherlabelTitle{
+  >div{
+    color: #8f7356;
+  }
+}
+
+
+.reader3__OthersLabelPanel__otherLabelTitle{
+  color: #8f7356;
+  border-left: 3px solid #bd9363;
+}
+.reader3__OthersLabelPanel__other{
+  color: #3a829c;
+}
+.reader3__OthersLabelPanel__otherLabelLink{
+  border-top: 1px solid #d5ccb2;
+}
+
+
+.reader3__Bookmark__wrapper {
+  background: #f2ede0;
+}
+
+.reader3__Bookmark__bookmarkItem{
+  border-top: 1px solid #d5ccb2;
+  &:last-child{
+    border-bottom: 1px solid #d5ccb2;
+  }
+}
+.reader3__Bookmark__bookmarkChapter{
+  color: #8f7356;
+  border-bottom: 1px solid #d5ccb2;
+}
+.reader3__Bookmark__markTop{
+  color: #8f7356;
+}
+.reader3__Bookmark__markContent{
+  color: #8f7356;
+}

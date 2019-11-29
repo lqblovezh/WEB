@@ -1,0 +1,43 @@
+@value headerHeight: 30px;
+@value borderWidth: 3px;
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100px;
+  min-height: 100px;
+  background-color: white;
+  z-index: 2;
+  border: solid rgb(100, 100, 100);
+  border-width: 1px borderWidth borderWidth 1px;
+  border-radius: 5px;
+  cursor: inherit;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: headerHeight;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+  line-height: headerHeight;
+  .closeBtn{
+    position: absolute;
+    height: headerHeight;
+    width: headerHeight;
+    right: 0;
+  }
+}
+
+
+.body {
+  position: absolute;
+  top: headerHeight;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}

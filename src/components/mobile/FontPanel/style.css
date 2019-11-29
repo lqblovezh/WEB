@@ -1,0 +1,62 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+    padding: 0 calc(12/$baseFontSize)rem;
+}
+.fieldTitle{
+    text-align: center;
+    position: relative;
+    height: calc(45/$baseFontSize)rem;
+    font-size: calc(17/$baseFontSize)rem;
+    font-weight: 700;
+    line-height: calc(45/$baseFontSize)rem;
+    border-bottom: 1px solid #fff;
+}
+.fontSizeList::after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+.activeFontSize{
+    color: #0065c9;
+}
+.fontFamilyList{
+
+}
+.back{
+    position: absolute;
+    display: block;
+    height: calc(18/$baseFontSize)rem;
+    width: calc(18/$baseFontSize)rem;
+    left: calc(10/$baseFontSize)rem;
+    top: 50%;
+    padding: 0 calc(10/$baseFontSize)rem;
+    margin-top: calc(-9/$baseFontSize)rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.fontFamilyListItem{
+    font-size: calc(14/$baseFontSize)rem;
+    height: calc(45/$baseFontSize)rem;
+    line-height: calc(45/$baseFontSize)rem;
+    padding: 0 calc(25/$baseFontSize)rem;
+    cursor:pointer;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    &:last-child{
+        border: none;
+    }
+}
+.solidCircle{
+    position: absolute;
+    display: block;
+    height: calc(18/$baseFontSize)rem;
+    width: calc(18/$baseFontSize)rem;
+    right: calc(10/$baseFontSize)rem;
+    top: 50%;
+    margin-top: calc(-9/$baseFontSize)rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

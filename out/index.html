@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Progma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script type="text/javascript" src="./polyfill.min.js"></script>
+    <script type="text/javascript" src="./reader3.desktop.js"></script>
+    <link type="text/css" rel="stylesheet" href="./reader3.desktop.css">
+    <link type="text/css" rel="stylesheet" href="./reader3.themes.css">
+    <style type="text/css">
+      html, body, #root {
+        margin: 0;
+        height: 100%;
+        /*overflow: hidden;*/
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">loading</div>
+    <script>
+      var reader = new Reader3({
+        restUrl: '/json/reader_api',
+        imagePath: 'http://hssres.kf.gli.cn/',  // 内网
+        // imagePath: 'http://newwk.kf.gli.cn/',  // 内网
+        // imagePath: 'http://res.gli.cn/', // 外网
+        labelEnabled: true,
+        copyEnabled: true,
+        otherLabelEnabled:true,
+      })
+      reader.mount(document.getElementById('root'))
+    </script>
+  </body>
+</html>

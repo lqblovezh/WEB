@@ -1,0 +1,63 @@
+@import 'components/mobile/base.css';
+
+
+.wrapper{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1;
+}
+.Chapter{
+    color: #fff;
+    font-size: calc(15/$baseFontSize)rem;
+    flex: 0 0 calc(55/$baseFontSize)rem;
+    line-height: calc(30/$baseFontSize)rem;
+    width: calc(55/$baseFontSize)rem;
+}
+.lastChapter{
+    float: left;
+}
+.nextChapter{
+    float: right;
+    text-align: right;
+}
+.progressBarWrapper{
+    flex: 1;
+}
+.progressBar{
+    height: calc(30/$baseFontSize)rem;
+    padding: 0 calc(15/$baseFontSize)rem;
+}
+.barInner{
+    position: relative;
+    top: 14px;
+    height: 3px;
+    background: rgba(0,0,0,0.3);
+}
+.progress{
+    position: absolute;
+    height: 100%;
+    background: #fff;
+}
+.progressBtnWrapper{
+    position: absolute;
+    left: 0;
+    margin-left: calc(-15/$baseFontSize)rem;
+    top: calc(-14/$baseFontSize)rem;
+    width: calc(30/$baseFontSize)rem;
+    height: calc(30/$baseFontSize)rem;
+}
+.progressBtn{
+    position: relative;
+    top: calc(7/$baseFontSize)rem;
+    left: calc(7/$baseFontSize)rem;
+    box-sizing: border-box;
+    width: calc(16/$baseFontSize)rem;
+    height: calc(16/$baseFontSize)rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #fff;
+}
+.lessFlex{
+    flex: 0 0 calc(25/$baseFontSize)rem;
+}

@@ -1,0 +1,32 @@
+@import 'components/mobile/base.css';
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: calc(15/$baseFontSize)rem;
+    margin-bottom: calc(10/$baseFontSize)rem;
+    li{
+        list-style: none;
+        padding-top: calc(30/$baseFontSize)rem;
+        width: 100%;
+        text-align: center;
+        font-size: calc(12/$baseFontSize)rem;
+        color: #fff;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+}
+
+.catalog{
+    background-size: calc(28/$baseFontSize)rem;
+}
+.white,night{
+    background-size: calc(26/$baseFontSize)rem;
+}
+.setting{
+    background-size: calc(26/$baseFontSize)rem;
+}
+.share{
+    background-size: calc(23/$baseFontSize)rem;
+}

@@ -1,0 +1,19 @@
+@import 'components/desktop/base.css';
+
+.wrapper{
+    position: absolute;
+    top: topBarHeight;
+    left: 0;
+    width: 300px;
+    z-index: 2;
+    min-height: 60px;
+    border-radius: 10px;
+    border:1px solid #BDA765;
+    overflow: hidden;
+}
+.content{
+    max-height: 250px;
+    padding: 1ex;
+    overflow: auto;
+    box-sizing: border-box;
+}

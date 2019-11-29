@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+    <part>
+        <title>1级标题</title>
+        <chapter>
+            <title>2级大纲</title>
+            <para xml:id="para1">正文内容</para>
+            <section>
+                <title>3级大纲</title>
+                <para xml:id="para2">正文内容</para>
+                <section>
+                    <title>4级大纲</title>
+                    <para xml:id="para3">正文内容</para>
+                    <section>
+                        <title>5级大纲</title>
+                        <para xml:id="para4">正文内容</para>
+                        <section>
+                            <title>6级大纲</title>
+                            <para xml:id="para5">正文内容</para>
+                            <section>
+                                <title>7级大纲</title>
+                                <para xml:id="para6">正文内容</para>
+                                <section>
+                                    <title>8级大纲</title>
+                                    <para xml:id="para7">正文内容</para>
+                                    <section>
+                                        <title>9级大纲</title>
+                                        <para xml:id="para8">正文内容</para>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </chapter>
+    </part>
+</book>

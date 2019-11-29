@@ -1,0 +1,96 @@
+@import url("Bamboo Slip/desktop.css") screen and (min-device-width: 992px);
+@import url("Bamboo Slip/mobile.css") screen and (max-device-width: 991px);
+
+.reader3__Layout__wrapper {
+  textarea {
+    resize: none;
+  }
+}
+
+.reader3__MainBody__wrapper {
+  button {
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+  }
+
+  .reader__cover {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .reader__h1 {
+    font-size: 2em;
+  }
+
+  .reader__h2 {
+    font-size: 1.8em;
+  }
+
+  .reader__h3 {
+    font-size: 1.5em;
+  }
+
+  .reader__h4 {
+    font-size: 1.2em;
+  }
+
+  .reader__h5 {
+    font-size: 1em;
+  }
+
+  .reader__h6 {
+    font-size: 0.8em;
+  }
+
+  .reader__label {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .reader__keyword {
+    color: red;
+  }
+
+  .reader3__TextView__vrl {
+
+    &.reader3__TextView__static {
+      .reader__comment2 {
+        font-size: 1.5ex;
+        line-height: 1.3em;
+        display: inline-block;
+      }
+
+      div[data-role=para] * {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .reader3__TextView__lr {
+    .reader__align_left {
+      text-align: left;
+    }
+    .reader__align_right {
+      text-align: right;
+    }
+    div[data-role=para] {
+      text-indent: 2em;
+    }
+    div[data-range] {
+      text-indent: 0;
+    }
+    &.reader3__TextView__auto {
+      .reader__cover {
+        padding-bottom: 20%;
+      }
+    }
+  }
+
+  .reader__label--active {
+    color: #af3b01;
+  }
+  /*.selected-text {
+    background-color: #A6D3F0;
+  }*/
+}

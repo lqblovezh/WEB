@@ -1,0 +1,11 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+    position: absolute;
+    top: calc(48/$baseFontSize)rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+
+}

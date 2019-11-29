@@ -1,0 +1,94 @@
+@import 'components/mobile/base.css';
+
+.wrapper {
+    position: absolute;
+    top: calc(48/$baseFontSize)rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+.list{
+
+}
+.chapterName{
+    height: calc(47/$baseFontSize)rem;
+    font-size: calc(16/$baseFontSize)rem;
+    line-height: calc(55/$baseFontSize)rem;
+    padding: 0 calc(15/$baseFontSize)rem;
+    border-bottom: 1px solid #cececb;
+}
+.itemField{
+    padding: 0 calc(15/$baseFontSize)rem;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #d3caac;
+    &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: calc(12/$baseFontSize)rem;
+        width: calc(13/$baseFontSize)rem;
+        height: calc(14/$baseFontSize)rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.bookmarkTitle{
+    line-height: calc(28/$baseFontSize)rem;
+    box-sizing: border-box;
+    font-size: calc(16/$baseFontSize)rem;
+    padding: calc(10/$baseFontSize)rem 0;
+}
+.btnList{
+    float: right;
+    padding-top: 5px;
+}
+.upLabelBtn{
+    padding: 0 calc(10/$baseFontSize)rem;
+    height: calc(20/$baseFontSize)rem;
+    width: calc(20/$baseFontSize)rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+    float: right;
+}
+.bookName{
+
+}
+.bookmarkText{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: calc(13/$baseFontSize)rem;
+    line-height: calc(22/$baseFontSize)rem;
+}
+.bookmarkTime{
+    font-size: calc(12/$baseFontSize)rem;
+    text-align: right;
+    line-height: calc(25/$baseFontSize)rem;
+}
+.noData{
+    height: 100%;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.noDataContent{
+    margin-top: calc(-100/$baseFontSize)rem;
+}
+.noDataText{
+    font-size: calc(15/$baseFontSize)rem;
+    margin-top: calc(19/$baseFontSize)rem;
+}
+.noDataImg{
+    margin: 0 auto;
+    width: calc(123/$baseFontSize)rem;
+    height: calc(114/$baseFontSize)rem;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

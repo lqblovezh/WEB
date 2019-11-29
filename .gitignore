@@ -1,0 +1,14 @@
+out/reader3.*
+node_modules
+COMMITHASH
+VERSION
+*.log
+.*.swp
+npm-debug.*
+.direcotry
+.DS_Store
+Thumbs.db
+*~
+.svn
+.idea
+.vscode

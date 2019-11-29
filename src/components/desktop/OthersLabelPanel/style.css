@@ -1,0 +1,144 @@
+@import 'components/desktop/base.css';
+.pageList{
+  text-align: center;
+  margin-top: 30px;
+  height: 100px; 
+  .page{
+    user-select: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 29px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-left: -1px;
+  }
+  .currPage{
+  }
+}
+
+.wrapper {
+  transform: translateX(350px);
+  position: absolute;
+  top: 50px;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+  z-index: 1;
+  width: 350px;
+  transition: transform 0.5s ;
+}
+.wrapperTransform{
+  transform: translateX(0px);
+  transition: transform 0.5s ;
+}
+
+@keyframes noteroll {
+  to {
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+.noData {
+  text-align: center;
+  padding: 1ex;
+}
+
+.content {
+  overflow: auto;
+}
+.itemFieldo{
+  margin: 0px 20px ;
+  box-sizing: border-box;
+  padding: 20px;
+  .userText{
+    margin: 10px 0px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: '微软雅黑';
+  }
+  .selectedTexto{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px ;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+
+}
+.btnList{
+  float: right;
+  padding-top: 5px;
+  &::after{
+    clear: both;
+    content: ' ';
+    display: block;
+  }
+}
+.upLabelBtn{
+  margin: 0px 10px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  float: right;
+}
+.otherlabelTitle{
+  >div{
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    &:last-child{
+      float: right;
+    }
+  }
+  .otherlabelType{
+    padding-left: 5px;
+  }
+  .otherlabelTime{
+    font-size: 12px;
+  }
+}
+.labelTime{
+  height: 50px;
+  font-size: 14px;
+  text-align: right;
+  line-height: 50px;
+}
+.title{
+  height: 55px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.otherLabelTitle{
+	font-size: 14px;
+  padding-left: 10px;
+}
+.other{
+	font-size: 14px;
+	line-height: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 250px;
+  display: block;
+}
+.otherLabelLink{
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.otherGroup{
+  margin-top: 10px;
+  padding-left: 10px;
+}

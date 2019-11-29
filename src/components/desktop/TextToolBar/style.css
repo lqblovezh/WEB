@@ -1,0 +1,22 @@
+.wrapper {
+  position: absolute;
+  background-color: rgb(68,67,66,0.8);
+  border-radius: 10px;
+  white-space: nowrap;
+
+  div{
+    height: 2.5em;
+    padding: 1ex 2ex;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    color: #f2f2e5;
+    &:hover{
+      cursor: pointer;
+      color: #bda765;
+    }
+
+  }
+}
